@@ -5,16 +5,7 @@ def puts_git(cmd)
   puts `git #{cmd} -h`
 end
 
-# arr = [3,2,1]
-# def count_down
-#   arr.each do |i|
-#     puts i
-#     sleep 1
-#     print `clear`
-  
 
-#     end 
-# end  
 
 
 def menu
@@ -31,13 +22,13 @@ def menu
     when 2
       
     puts "Peace!".colorize(:green)
-    count_down
+    sleep 1
     print `clear`
     exit
 
     else 
     puts "Invalid input".colorize(:red)
-    sleep (0.5)
+    sleep 1
     print `clear`
     menu
   
