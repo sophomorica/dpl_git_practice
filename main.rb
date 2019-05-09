@@ -1,4 +1,5 @@
 # this code helps to access a directory in a user friendly way
+# bundle init will create a gem file
 
 def puts_git(cmd)
   puts `git #{cmd} -h`
