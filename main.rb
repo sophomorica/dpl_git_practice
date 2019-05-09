@@ -1,5 +1,6 @@
 # this code helps to access a directory in a user friendly way
 # bundle init will create a gem file
+# bundle install will install the necessary gem files
 require "colorize"
 def puts_git(cmd)
   puts `git #{cmd} -h`
